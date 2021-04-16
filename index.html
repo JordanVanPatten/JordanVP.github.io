@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                padding: 3px;
+                border-spacing: 3px;
+            }
+        </style>
         <title>About Jordan Van Patten</title>
     </head>
     <body>
         <h1>Jordan Van Patten</h1>
-        <img src="JordanSelfie.jpg" width="500" height="500">
+        <img src="JordanSelfie.jpg" alt="Jordan Selfie">
         <h2>Personal Info</h2>
         <ul>
             <li><strong>Major:</strong> Computer Science Major</li>
@@ -16,10 +23,10 @@
         <h2>My five favorite books</h2>
         <ol>
             <li>Ender's Game, <a href="http://www.hatrack.com/">Orson Scott Card</a></li>
-            <li>The Alchemyst, </a href="https://www.dillonscott.com/">Michael Scott</a></li>
-            <li>Pathfinder, </a href="http://www.hatrack.com/">Orson Scott Card</a></li>
-            <li>Infinity, </a href="https://www.sherrilynkenyon.com/">Sherrilyn Kenyon</a></li>
-            <li>Eon, </a href="https://www.alisongoodman.com.au/">Alison Goodman</a></li>
+            <li>The Alchemyst, <a href="https://www.dillonscott.com/">Michael Scott</a></li>
+            <li>Pathfinder, <a href="http://www.hatrack.com/">Orson Scott Card</a></li>
+            <li>Infinity, <a href="https://www.sherrilynkenyon.com/">Sherrilyn Kenyon</a></li>
+            <li>Eon, <a href="https://www.alisongoodman.com.au/">Alison Goodman</a></li>
         </ol>
         <h2>A Haiku About Myself</h2>
         <p>Ode to my sleeping schedule in the summer and weekends:</p>
@@ -36,7 +43,7 @@
         I am not good at running long distances, but I do pretty well with short distances for bursts of time, so I can play for 
         a long time without needing to take long breaks</p>
         <h2>class schedule</h2>
-        <tb>
+        <table>
             <tr>
                 <th></th>
                 <th>Monday</th>
@@ -45,11 +52,36 @@
                 <th>Thursday</th>
                 <th>Friday</th>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-        </tb>
+            <tr>
+                <td>12:00</td>
+                <td>Math</td>
+                <td></td>
+                <td>Math</td>
+                <td></td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>12:30</td>
+                <td></td>
+                <td rowspan="2">English</td>
+                <td></td>
+                <td rowspan="2">English</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1:00</td>
+                <td rowspan="3">Science</td>
+                <td rowspan="3">Science</td>
+                <td rowspan="3">Science</td>
+            </tr>
+            <tr>
+                <td>1:30</td>
+                <td rowspan="2">History</td>
+                <td rowspan="2">History</td>
+            </tr>
+            <tr>
+                <td>2:00</td>
+            </tr>
+        </table>
     </body>
 </html>
